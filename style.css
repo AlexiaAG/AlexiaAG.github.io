@@ -24,6 +24,8 @@ body {
 .title-section {
     width: 100%;
     text-shadow: 1px 5px 20px #000000;
+    margin-block-start: 50%;
+    height: 30em;
 }
 
 .title {
@@ -47,9 +49,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 25px;
-    margin-top: 10em;
     flex-direction: column;
-    margin-bottom: 5em; 
 }
 
 .info-text {
@@ -117,4 +117,24 @@ body {
     border-color: #66bef8;
     box-shadow: 2px 0px 20px #66bef8;
 
+}
+
+
+
+.footer {
+    height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block-end: 20em;
+}
+
+.footer_text {
+    font-size: 13px;
+    color: #C5D8F0;
+}
+
+.footer_img {
+    width: 13px;
+    height: 13px;
 }
