@@ -49,6 +49,7 @@ body {
     border-radius: 25px;
     margin-top: 10em;
     flex-direction: column;
+    margin-bottom: 5em; 
 }
 
 .info-text {
